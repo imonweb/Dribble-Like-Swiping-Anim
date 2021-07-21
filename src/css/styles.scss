@@ -34,4 +34,28 @@ body {
 
 .section {
   padding: 4em 8em;
+
+  &:before {
+    content: 'Excellence';
+    position: absolute;
+    left: 20%;
+    top: 0;
+    font-size: 14rem;
+    color: rgba(255, 255, 255, .06);
+  }
+}
+
+section :nth-of-type(2) {
+  background: rgb(43, 43, 77);
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+p {
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
